@@ -1,0 +1,147 @@
+body {
+  background-image: url("../img/violet.png");
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  color: orange;
+  border: 0;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+  padding: 5px;
+}
+
+a:hover, button:hover {
+  opacity: .7;
+}
+
+.navbar{
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  padding: 5px;
+}
+
+.navbar .nav-item{
+  float: left;
+  padding: 10px;
+}
+
+.navbar .nav-item:last-child{
+  float: right;
+  padding: 10px 15px;
+  margin: 10px;
+  color: white;
+  background-color: orangered;
+  border-radius: 10px;
+}
+.sub-menu {
+  display: none;
+  box-shadow: 0px 1px 2px #CCC;
+  background-color: white;
+}
+.nav-item-forum{
+  color: white;
+  float: left;
+  padding: 10px;
+}
+.nav-item-forum .sub-menu{
+  padding: 10px;
+  border-bottom: none;
+}
+
+.nav-item-forum:hover .sub-menu{
+  text-decoration: none;
+  display: block;
+  border-bottom: none;
+  background-color: RGBa(200, 200, 200, 0.1);
+  border-radius: 10px;
+  border-width:1px;
+  border-style:inset;
+  border-color:black;
+  border-collapse: collapse;
+}
+.nav-item-actu{
+  color: white;
+  float: left;
+  padding: 10px;
+}
+.nav-item-actu .sub-menu{
+  padding: 10px;
+  border-bottom: none;
+}
+
+.nav-item-actu:hover .sub-menu{
+  text-decoration: none;
+  display: block;
+  border-bottom: none;
+  background-color: RGBa(200, 200, 200, 0.1);
+  border-radius: 10px;
+  border-width:1px;
+  border-style:inset;
+  border-color:black;
+  border-collapse: collapse;
+}
+
+.hero-description {
+  padding: 25px;
+}
+.hero-section {
+  text-align: center;
+  padding: 200px;
+}
+.hero-title {
+  margin: 15px;
+}
+.hero-btn{
+  background-color: #4F7FE0;
+}
+.s-m-section {
+  text-align: center;
+  background: linear-gradient(45deg, #F47850, #FFA93A, #F47850);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+
+.s-m-title {
+  margin: 20px;
+}
+
+.s-m-descritpion {
+  margin: 0 0 40px 0;
+}
+
+.s-m-btn {
+  color: #4F7FE0;
+  border: 2px solid;
+  padding: 8px 20px;
+  background: 0;
+}
+
+.s-m-btn-2 {
+  color: #F47850;
+}
+
+.time-load-section {
+  background: linear-gradient(0deg, #E6F0FA 100%);
+  padding: 100px 0;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+ul{
+  list-style: none;
+}
